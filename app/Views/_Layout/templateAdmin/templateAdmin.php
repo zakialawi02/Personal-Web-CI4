@@ -73,6 +73,21 @@
         $("#kehadiran").trigger("change");
     </script>
 
+    <!-- Pushe js -->
+    <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
+    <script>
+        // Enable pusher logging - don't include this in production
+        Pusher.logToConsole = true;
+
+        var pusher = new Pusher('f5cf9b19eaecd63dc9ae', {
+            cluster: 'ap1'
+        });
+
+        var channel = pusher.subscribe('my-channel');
+        channel.bind('my-event', function(data) {
+            alert(JSON.stringify(data));
+        });
+    </script>
 </body>
 
 </html>
