@@ -1,0 +1,367 @@
+ERROR - 2022-09-01 02:19:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ci', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-09-01 02:19:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pesan`', [], false)
+ 3 APPPATH\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:54:42 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 122.
+ 1 APPPATH\Views\pesan\indexPesan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:55:18 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 122.
+ 1 APPPATH\Views\pesan\indexPesan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:55:19 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 122.
+ 1 APPPATH\Views\pesan\indexPesan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:02 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:04 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:09 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:10 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:11 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:11 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:12 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:56:34 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 121.
+ 1 APPPATH\Views\pesan\indexPesan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 121)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 04:59:48 --> Undefined variable $id_pesan
+in APPPATH\Views\pesan\indexPesan.php on line 122.
+ 1 APPPATH\Views\pesan\indexPesan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:11:18 --> Undefined variable $pesan
+in APPPATH\Views\pesan\indexPesan.php on line 109.
+ 1 APPPATH\Views\pesan\indexPesan.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesan', 'APPPATH\\Views\\pesan\\indexPesan.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pesan\\indexPesan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 5 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:17:40 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pesan\indexPesan.php on line 128.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('pesan/indexPesan', [], true)
+ 4 APPPATH\Controllers\Message.php(24): view('pesan/indexPesan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:18:24 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Message.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:21:04 --> Call to undefined method App\Models\PesanModel::getAllData
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Message.php(22): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:24:24 --> Call to undefined method App\Models\PesanModel::getAllData
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Message.php(22): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:24:25 --> Call to undefined method App\Models\PesanModel::getAllData
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Message.php(22): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:24:27 --> Call to undefined method App\Models\PesanModel::getAllData
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Message.php(22): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:25:54 --> Call to undefined method App\Models\PesanModel::getAllData
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Message.php(22): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:27:13 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:27:49 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:42 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-01 05:28:59 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Message.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Message->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Message))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
