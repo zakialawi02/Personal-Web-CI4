@@ -139,8 +139,8 @@
         }));
 
         L.control.locate({}).addTo(map);
-
         L.control.mousePosition().addTo(map);
+        L.control.scale().addTo(map);
         //make marker point
         // custom marker
         var locTempat = L.icon({
