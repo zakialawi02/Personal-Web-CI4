@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <link href='<?= base_url(); ?>/leaflet/L.Control.MousePosition.css' rel='stylesheet' />
 
 
 
@@ -78,6 +79,7 @@
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <script src='<?= base_url(); ?>/leaflet/L.Control.MousePosition.js'></script>
     <!-- Leafleat Setting js-->
     <!-- initialize the map on the "map" div with a given center and zoom -->
     <script>
@@ -127,8 +129,6 @@
         };
         L.control.layers(baseLayers).addTo(map);
 
-        L.control.locate().addTo(map);
-
         map.addControl(new L.Control.Fullscreen({
             title: {
                 'false': 'View Fullscreen',
@@ -136,7 +136,9 @@
             }
         }));
 
+        L.control.locate({}).addTo(map);
 
+        L.control.mousePosition().addTo(map);
         //make marker point
         // custom marker
         var locTempat = L.icon({
@@ -251,6 +253,7 @@
             //     }
 
             // }).addTo(map);
+
         }
     </script>
 

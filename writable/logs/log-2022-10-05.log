@@ -1,0 +1,123 @@
+ERROR - 2022-10-05 20:54:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'CI', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Home->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-10-05 20:54:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pesan`', [], false)
+ 3 APPPATH\Models\PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-05 20:54:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'CI', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-10-05 20:54:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rsvp`', [], false)
+ 3 APPPATH\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-05 20:54:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'CI', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-10-05 20:54:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rsvp`', [], false)
+ 3 APPPATH\Models\RsvpModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Rsvp.php(21): App\Models\RsvpModel->tampilRsvp()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

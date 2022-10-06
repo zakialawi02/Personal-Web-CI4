@@ -28,6 +28,7 @@
                 <!-- ISI CONTENT -->
 
                 <div class="map" id="map"></div>
+                <div style="background-color: whitesmoke;" class="infoPos" id="infoPos">.</div>
 
                 <!-- END ISI CONTENT -->
             </div>
