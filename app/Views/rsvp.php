@@ -1,4 +1,4 @@
-<?= $this->extend('_Layout/templateAdmin/templateAdmin'); ?>
+<?= $this->extend('_Layout/templateAdmin/templateRsvp'); ?>
 
 
 <?= $this->section('content'); ?>
@@ -34,7 +34,7 @@
                     <i class="fa fa-plus"></i> Hadir
                 </button>
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal fade tombol-tutup" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -79,8 +79,8 @@
 
 
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Konfirmasi</button>
+                                        <button type="button" class="btn btn-secondary tombol-tutup" data-bs-dismiss="modal" id="tombolTutup">Close</button>
+                                        <button type="submit" class="btn btn-primary" id="tombolSimpan">Konfirmasi</button>
                                     </div>
                                 </form>
                             </div>

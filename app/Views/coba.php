@@ -30,6 +30,7 @@
                 <a href="/message" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">MESSAGE</a>
                 <a href="/gis" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">WEB GIS</a>
                 <a href="/rsvp" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">RSVP</a>
+                <a href="/note" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">Notes</a>
                 <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">SOON..</a>
 
 
