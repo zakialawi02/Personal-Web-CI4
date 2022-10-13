@@ -1,0 +1,178 @@
+CRITICAL - 2022-10-11 10:59:02 --> Undefined variable $error
+in APPPATH\Views\rsvp.php on line 195.
+ 1 APPPATH\Views\rsvp.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH\\Views\\rsvp.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rsvp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 5 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 10:59:03 --> Undefined variable $error
+in APPPATH\Views\rsvp.php on line 195.
+ 1 APPPATH\Views\rsvp.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH\\Views\\rsvp.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rsvp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 5 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 11:43:22 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Controllers\Home.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Controllers\\Home.php', 72)
+ 2 APPPATH\Controllers\Home.php(72): mail('hallo@zakialawi.my.id', 'Contact Form', 'Name: AAAAAAAA BBB aaaaaaaa 
+ Email: lpubmeq@uniromax.com 
+ Comments: fghfdghfdg hdf ghrs gh', 'From:AAAAAAAA BBB aaaaaaaa')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->sendMail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 11:50:56 --> mail() expects at most 5 arguments, 6 given
+in APPPATH\Controllers\Home.php on line 67.
+ 1 APPPATH\Controllers\Home.php(67): mail('hallo@zakialawi.my.id', 'AAAAAAAA BBB aaaaaaaa', 'lpubmeq@uniromax.com', 'gh', 'fghfgh rhrthrt htr', 'From: webmaster@example.com
+Reply-To: webmaster@example.com
+X-Mailer: PHP/8.0.2')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->sendMail()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:12:17 --> syntax error, unexpected identifier "POST", expecting variable or "{" or "$"
+in APPPATH\Controllers\Home.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:16:57 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Controllers\Home.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Controllers\\Home.php', 66)
+ 2 APPPATH\Controllers\Home.php(66): mail('hallo@zakialawi.my.id', 'AAAAAAAA BBB aaaaaaaa', 'Name: AAAAAAAA BBB aaaaaaaa
+ Email: lpubmeq@uniromax.com
+ Subject: jt jthj
+ Message: 1
+')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->sendMail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:27:59 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Views\_Layout\templateHome.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Views\\_Layout\\templateHome.php', 40)
+ 2 APPPATH\Views\_Layout\templateHome.php(40): mail('hallo@zakialawi.my.id', 'ef1', 'Name: ef1
+ Email: treyl7358@student.vvc.edu
+ Subject: er1
+ Message: er ertaewr ger1
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\_Layout\\templateHome.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('_Layout/templateHome', [], true)
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('indexHome', [], true)
+ 7 APPPATH\Controllers\Home.php(22): view('indexHome', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:33:04 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Views\indexHome.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Views\\indexHome.php', 383)
+ 2 APPPATH\Views\indexHome.php(383): mail('hallo@zakialawi.my.id', 'AAAAAAAA BBB aaaaaaaa2', 'Name: AAAAAAAA BBB aaaaaaaa2
+ Email: lpubmeq@uniromax.com
+ Subject: 222222
+ Message: erer tert ertert er
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indexHome.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('indexHome', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('indexHome', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:37:19 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Views\indexHome.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Views\\indexHome.php', 383)
+ 2 APPPATH\Views\indexHome.php(383): mail('hallo@zakialawi.my.id', 'AAAAAAAA BBB aaaaaaaa2', 'Name: AAAAAAAA BBB aaaaaaaa2
+ Email: lpubmeq@uniromax.com
+ Subject: 222222
+ Message: erer tert ertert er
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indexHome.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('indexHome', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('indexHome', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:37:23 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Views\indexHome.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Views\\indexHome.php', 383)
+ 2 APPPATH\Views\indexHome.php(383): mail('hallo@zakialawi.my.id', 'AAAAAAAA BBB aaaaaaaa2', 'Name: AAAAAAAA BBB aaaaaaaa2
+ Email: lpubmeq@uniromax.com
+ Subject: 222222
+ Message: erer tert ertert er
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indexHome.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('indexHome', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('indexHome', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:37:38 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Views\indexHome.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Views\\indexHome.php', 383)
+ 2 APPPATH\Views\indexHome.php(383): mail('hallo@zakialawi.my.id', '33AAAAAAAA BBB aaaaaaaa', 'Name: 33AAAAAAAA BBB aaaaaaaa
+ Email: lpubmeq@uniromax.com
+ Subject: 3333fr
+ Message: sre hesrh er eryherher
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\indexHome.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('indexHome', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('indexHome', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:41:32 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Controllers\Home.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Controllers\\Home.php', 66)
+ 2 APPPATH\Controllers\Home.php(66): mail('hallo@zakialawi.my.id', '44AAAAAAAA BBB aaaaaaaa', 'Name: 44AAAAAAAA BBB aaaaaaaa
+ Email: lpubmeq@uniromax.com
+ Subject: 44regt
+ Message: esef ss fef
+')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->sendMail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-11 12:48:14 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+in APPPATH\Controllers\Home.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 APPPATH\Controllers\Home.php(62): mail('hallo@zakialawi.my.id', 'Form submission', 'lpubmeq@uniromax.com wrote the following:
+
+dr dr tdrt drtdrt', 'From:lpubmeq@uniromax.com')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->sendMail()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

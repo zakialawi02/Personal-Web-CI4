@@ -1,0 +1,1648 @@
+CRITICAL - 2022-10-13 00:02:41 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Note.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('note')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('note')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('note')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:02:51 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Note.php on line 28.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('note')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('note')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('note')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:02:52 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Note.php on line 28.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('note')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('note')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('note')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:03:44 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:04:54 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:04:55 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:06:43 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:06:43 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:06:44 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:06:44 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:06:44 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:07:10 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:07:10 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:08:01 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:08:02 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:08:12 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Note.php(48): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:08:30 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Controllers\Note.php(19): CodeIgniter\BaseModel->findAll()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:13:37 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Note.php(49): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:14:17 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Note.php(49): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:14:23 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Note.php(49): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:14:31 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Note.php(49): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:16:12 --> Undefined variable $callNote
+in APPPATH\Views\notes\notes.php on line 92.
+ 1 APPPATH\Views\notes\notes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\notes.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:16:18 --> Undefined variable $callNote
+in APPPATH\Views\notes\notes.php on line 92.
+ 1 APPPATH\Views\notes\notes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\notes.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:16:56 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Note.php(49): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->addNote()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:17:21 --> Undefined variable $callNote
+in APPPATH\Views\notes\notes.php on line 92.
+ 1 APPPATH\Views\notes\notes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\notes.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:36 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:48 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:49 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:49 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:50 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:50 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:51 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:51 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:51 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:52 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:52 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:52 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:21:52 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:33 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:33 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:41 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:41 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:42 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:42 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:22:43 --> Call to undefined method App\Models\NoteModel::callNote
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(23): CodeIgniter\Model->__call('callNote', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:23:19 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\notes.php on line 95.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 4 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 00:23:20 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\notes.php on line 95.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 4 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:34:13 --> Call to undefined method App\Models\NoteModel::getProduct
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(60): CodeIgniter\Model->__call('getProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:37:08 --> Call to undefined method App\Models\NoteModel::getProduct
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(60): CodeIgniter\Model->__call('getProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:39:55 --> Too few arguments to function App\Controllers\Note::edit(), 0 passed in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:11 --> Invalid file: updateNote.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateNote.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('updateNote', [], true)
+ 3 APPPATH\Controllers\Note.php(61): view('updateNote')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:12 --> Invalid file: updateNote.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateNote.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('updateNote', [], true)
+ 3 APPPATH\Controllers\Note.php(61): view('updateNote')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:13 --> Invalid file: updateNote.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateNote.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('updateNote', [], true)
+ 3 APPPATH\Controllers\Note.php(61): view('updateNote')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:26 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(61): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:27 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(61): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:40:50 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(65): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:41:02 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(65): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:41:03 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(65): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:41:04 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(65): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:42:13 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:42:13 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:42:14 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:42:14 --> Undefined variable $title
+in APPPATH\Views\notes\updateNote.php on line 9.
+ 1 APPPATH\Views\notes\updateNote.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\notes\\updateNote.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:48:22 --> Too few arguments to function App\Controllers\Note::edit(), 0 passed in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\Note.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:48:30 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(62): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:50:42 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(62): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:50:42 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(62): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:50:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(62): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:51:22 --> Call to undefined method App\Models\NoteModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getRow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:51:23 --> Call to undefined method App\Models\NoteModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getRow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:51:24 --> Call to undefined method App\Models\NoteModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getRow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:52:45 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:53:08 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getResultArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:54:30 --> Call to undefined method App\Models\NoteModel::getWherw
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getWherw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:54:30 --> Call to undefined method App\Models\NoteModel::getWherw
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('getWherw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:54:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:54:40 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:54:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:55:15 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:55:42 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_note
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$id_note', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:55:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_note
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$id_note', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:55:45 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_note
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$id_note', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 10:57:12 --> Cannot use object of type App\Models\NoteModel as array
+in APPPATH\Views\notes\updateNote.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:05:38 --> Call to a member function where() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:05:53 --> Call to a member function where() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:05:53 --> Call to a member function where() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:05:54 --> Call to a member function where() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:06:05 --> Call to a member function getResultArray() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:06:20 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 672.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Note.php(62): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:06:27 --> Call to a member function getResultArray() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:07:47 --> Call to a member function getResultArray() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:07:48 --> Call to a member function getResultArray() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:07:59 --> Call to a member function getResultArray() on null
+in APPPATH\Controllers\Note.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:18 --> Attempt to read property "id_note" on array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on array', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:30 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:50 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:51 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:51 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:52 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:08:53 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:09:30 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:09:31 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:10:15 --> Undefined array key "id_note"
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_note"', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:10:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:10:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:10:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:10:43 --> Undefined variable $callNote
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:11:25 --> Attempt to read property "id_note" on null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:11:40 --> Attempt to read property "id_note" on null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:11:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\notes\updateNote.php on line 36.
+ 1 APPPATH\Views\notes\updateNote.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\notes\\updateNote.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:12:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:14:38 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '7')
+ 3 APPPATH\Controllers\Note.php(62): CodeIgniter\BaseModel->find('7')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('7')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:14:55 --> Attempt to read property "id_note" on null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:14:57 --> Attempt to read property "id_note" on null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:15:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:15:59 --> Attempt to read property "id_note" on null
+in APPPATH\Views\notes\updateNote.php on line 31.
+ 1 APPPATH\Views\notes\updateNote.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_note" on null', 'APPPATH\\Views\\notes\\updateNote.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\updateNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 5 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:18:28 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\updateNote.php on line 46.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/updateNote', [], true)
+ 4 APPPATH\Controllers\Note.php(64): view('notes/updateNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:25:38 --> You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2121.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2057): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\NoteModel.php(38): CodeIgniter\Database\BaseBuilder->update(null, [...])
+ 3 APPPATH\Controllers\Note.php(80): App\Models\NoteModel->updateNote(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->update()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:27:13 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update('8', [...])
+ 5 APPPATH\Controllers\Note.php(79): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->update()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:27:19 --> Allowed fields must be specified for model: App\Models\NoteModel
+in SYSTEMPATH\BaseModel.php on line 1139.
+ 1 SYSTEMPATH\BaseModel.php(1139): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\NoteModel')
+ 2 SYSTEMPATH\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update('8', [...])
+ 5 APPPATH\Controllers\Note.php(79): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->update()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 11:49:37 --> Undefined array key "id"
+in APPPATH\Views\notes\notes.php on line 46.
+ 1 APPPATH\Views\notes\notes.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\notes\\notes.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:12:05 --> Undefined variable $r
+in APPPATH\Views\notes\notes.php on line 53.
+ 1 APPPATH\Views\notes\notes.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\notes\\notes.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:27:06 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `no...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `no...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `no...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `no...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(87): CodeIgniter\BaseModel->delete(NULL)
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->delete()
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-13 13:27:06 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `notes`
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `notes`
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `notes`
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `notes`
+WHERE `id` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 7 APPPATH\Controllers\Note.php(87): CodeIgniter\BaseModel->delete(null)
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:27:44 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `no...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `no...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `no...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `no...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(87): CodeIgniter\BaseModel->delete(Array)
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-13 13:27:44 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `notes`
+WHERE `id` = :id:
+AND `id_note` IN :id_note:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Note.php(87): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:28:37 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `no...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `no...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `no...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `no...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(87): CodeIgniter\BaseModel->delete(Array)
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-13 13:28:37 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `notes`
+WHERE `id` = :id:
+AND `id_note` IN :id_note:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Note.php(87): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:28:57 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `no...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `no...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `no...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `no...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(87): CodeIgniter\BaseModel->delete(Array)
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-13 13:28:57 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `notes`
+WHERE `id` = :id:
+AND `id_note` IN :id_note:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Note.php(87): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-13 13:31:19 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `no...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `no...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `no...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `no...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(88): CodeIgniter\BaseModel->delete(Array)
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-13 13:31:19 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `notes`
+WHERE `id` = \'5\'
+AND `id_note` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2390): CodeIgniter\Database\BaseConnection->query('DELETE FROM `notes`
+WHERE `id` = :id:
+AND `id_note` IN :id_note:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Note.php(88): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:33:24 --> Undefined array key "create_at"
+in APPPATH\Views\notes\notes.php on line 48.
+ 1 APPPATH\Views\notes\notes.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "create_at"', 'APPPATH\\Views\\notes\\notes.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:37:03 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\notes\notes.php on line 48.
+ 1 APPPATH\Views\notes\notes.php(48): date('d M Y', '2022-10-10 16:14:41')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:38:58 --> Undefined variable $r
+in APPPATH\Views\notes\notes.php on line 49.
+ 1 APPPATH\Views\notes\notes.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\notes\\notes.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:41:10 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Views\notes\notes.php on line 49.
+ 1 APPPATH\Views\notes\notes.php(49): date('Y-m-d', 'created_at')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Notes/notes', [], true)
+ 5 APPPATH\Controllers\Note.php(25): view('Notes/notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:50:23 --> Invalid file: notes/Note.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notes/Note.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/Note', [], true)
+ 3 APPPATH\Controllers\Note.php(101): view('notes/Note', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:50:33 --> Undefined variable $callNote
+in APPPATH\Views\notes\notes.php on line 42.
+ 1 APPPATH\Views\notes\notes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\notes.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\notes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/Notes', [], true)
+ 5 APPPATH\Controllers\Note.php(101): view('notes/Notes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:51:01 --> Invalid file: notes/viewNotes.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('notes/viewNotes.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNotes', [], true)
+ 3 APPPATH\Controllers\Note.php(101): view('notes/viewNotes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:52:11 --> Undefined variable $callNote
+in APPPATH\Views\notes\viewNote.php on line 28.
+ 1 APPPATH\Views\notes\viewNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\viewNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\viewNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNote', [], true)
+ 5 APPPATH\Controllers\Note.php(101): view('notes/viewNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:52:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\viewNote.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNote', [], true)
+ 4 APPPATH\Controllers\Note.php(101): view('notes/viewNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:53:55 --> Undefined array key "judul_note"
+in APPPATH\Views\notes\viewNote.php on line 28.
+ 1 APPPATH\Views\notes\viewNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul_note"', 'APPPATH\\Views\\notes\\viewNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\viewNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNote', [], true)
+ 5 APPPATH\Controllers\Note.php(102): view('notes/viewNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:54:31 --> Attempt to read property "judul_note" on array
+in APPPATH\Views\notes\viewNote.php on line 28.
+ 1 APPPATH\Views\notes\viewNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_note" on array', 'APPPATH\\Views\\notes\\viewNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\viewNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNote', [], true)
+ 5 APPPATH\Controllers\Note.php(102): view('notes/viewNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 13:54:45 --> Attempt to read property "judul_note" on array
+in APPPATH\Views\notes\viewNote.php on line 28.
+ 1 APPPATH\Views\notes\viewNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_note" on array', 'APPPATH\\Views\\notes\\viewNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\viewNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/viewNote', [], true)
+ 5 APPPATH\Controllers\Note.php(102): view('notes/viewNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

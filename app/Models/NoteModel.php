@@ -7,24 +7,34 @@ use CodeIgniter\Model;
 
 class NoteModel extends Model
 {
-    protected $table      = 'note';
+    protected $table      = 'notes';
     protected $primaryKey = 'id_note';
     protected $useTimestamps = 'true';
 
-    protected $allowFields = ['judul_note', 'isi_note'];
+
+    protected $allowFields = ['judul_note', 'isi_note', 'created_at', 'updated_at'];
 
     function __construct()
     {
         $this->db = db_connect();
     }
 
-    function tampilData()
+    function callNote($id_note = false)
     {
-        return $this->db->table('note')->get();   //mengambil data objek type
+        if ($id_note === false) {
+            return $this->db->table('notes')->get();
+        } else {
+            return $this->db->table('notes')->getWhere(['id_note' => $id_note]);
+        }
     }
-    // fungsi add data ke database
-    function send_message($send_message)
+
+    function addNote($addNote)
     {
-        return $this->db->table('note')->insert($send_message);
+        return $this->db->table('notes')->insert($addNote);
+    }
+
+    public function updateNote($data, $id_note)
+    {
+        return $this->db->table('notes')->update($data, ['id_note' => $id_note]);
     }
 }
