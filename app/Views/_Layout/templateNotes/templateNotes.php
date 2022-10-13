@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title; ?></title>
 
-    <link rel="stylesheet" href="/css/styleCrud.css">
+    <link rel="stylesheet" href="/css/notes.css">
     <link rel="stylesheet" href="/assets/css/main/app.css">
     <link rel="stylesheet" href="/assets/css/main/app-dark.css">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
@@ -125,19 +125,6 @@
         });
     </script>
 
-    <script>
-        function bersihkan() {
-            $('#judulNote').val('');
-            $('#isiNote').val('');
-        }
-        $('.tombol-cancel').on('click', function() {
-            // if ($('.sukses').is(":visible")) {
-            //     window.location.href = "<?php echo current_url() . "?" . $_SERVER['QUERY_STRING'] ?>";
-            // }
-            // $('.alert').hide();
-            bersihkan();
-        });
-    </script>
 </body>
 
 </html>

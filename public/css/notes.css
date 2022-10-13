@@ -1,0 +1,30 @@
+.note {
+    text-align: center;
+}
+
+.card-blog {
+    float: none;
+    width: 28%;
+    border: 0.5px solid #0096ff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px grey;
+    display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 28px;
+    text-overflow: ellipsis;
+}
+
+.card-para {
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.card-span {
+    padding-left: 15px;
+    padding-right: 15px;
+}

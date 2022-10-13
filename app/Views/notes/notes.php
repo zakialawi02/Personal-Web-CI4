@@ -24,49 +24,8 @@
             <div class="card-body">
                 <!-- ISI CONTENT -->
 
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary my-2 p-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <i class="fa fa-plus"></i> Notes
-                </button>
-                <!-- Modal -->
-                <div class="modal fade tombol-tutup" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Tambah Manual</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-
-                                <form action="/note/clip" method="post" enctype="multipart/form-data">
-                                    <?= csrf_field(); ?>
-                                    <div class="row mb-3">
-                                        <label for="colFormLabel" class="col-sm-3 col-form-label">Nama:</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" for="judulNote" id="judulNote" name="judulNote" placeholder="Judul" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="row mb-3" id="THadir">
-                                        <label for="colFormLabel" class="col-sm-3 col-form-label" id="reason-list">Notes:</label>
-                                        <div class="col-sm-8">
-                                            <div>
-                                                <div id="toolbar"></div>
-                                                <div id="editor"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary tombol-cancel" data-bs-dismiss="modal" id="tombolTutup">Cancel</button>
-                                        <button type="submit" class="btn btn-primary" id="tombolSimpan">Snap</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <div class="d-grid gap-2 mp-1">
+                    <a href="note/create" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">+ add note</a>
                 </div>
 
                 <?php if (session()->getFlashdata('alert')) : ?>
@@ -77,47 +36,35 @@
                         </div>
                     </div>
                 <?php endif; ?>
+                <div class="mb-5"></div>
 
+                <div class="d-d-grid gap-2 mp-2 note">
+                    <?php foreach ($callNote as $n) : ?>
+                        <div class="card-blog">
+                            <div class="card-span">
+                                <h3 style="font-size:18px"><?= $n['judul_note']; ?></h3>
+                                <div>
 
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <a href="#" class="card-link">Admin</a>
+                                    <span class="card-date">| <?= date('d M Y', strtotime($n['created_at'])); ?></span>
+                                </div>
+                                <p class="card-para"><?= $n['isi_note']; ?></p>
                             </div>
-                            <a href="#" class="btn btn-primary">view detail</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="col m-2 ">
+                                <form action="/note/edit/<?= $n['id_note']; ?>" style="display: inline;">
+                                    <?= csrf_field(); ?>
+                                    <input type="hidden" name="_method" value="EDIT">
+                                    <button type="submit" class="p-1 btn btn-warning "><i class="bi bi-pencil-square"></i></button>
+                                </form>
+                                <form action="/note/delete/<?= $n['id_note']; ?>" style="display: inline;" method="post">
+                                    <?= csrf_field(); ?>
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="p-2 btn btn-danger fa fa-trash" onclick="return confirm('Yakin Hapus Data?')"></button>
+                                </form>
                             </div>
-                            <a href="#" class="btn btn-primary">view detail</a>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <a href="#" class="btn btn-primary">view detail</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <a href="#" class="btn btn-primary">view detail</a>
-                        </div>
-                    </div>
+                    <?php endforeach ?>
                 </div>
-
 
 
 

@@ -376,30 +376,14 @@
                     <input type="text" placeholder="Subject" name="judul" id="judul" required />
                     <textarea cols="10" rows="10" placeholder="Your Message" name="message" id="message" required></textarea>
 
-                    <input class="btn-contact" type="submit" value="Submit">
-                    <h4 class="sent-notification"></h4>
+                    <?php if (!empty($terkirim)) : ?>
+                        <div class="terkirim">
+                            <strong><?= $terkirim; ?></strong>
+                        </div>
+                    <?php endif ?>
+                    <input class="btn-contact" type="submit" value="Submit" name="sendMail">
 
                 </form>
-
-
-
-                <!-- versi 1 -->
-                <!-- <form action="message.php" method="POST" class="form" id="myForm"> -->
-                <!-- <form action="" method="POST" class="form" id="myForm">
-                <div>
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
-                    <input type="email" placeholder="Your Email" name="email" id="email" />
-                </div>
-                <input type="text" placeholder="Subject" name="subject_form" id="subject" />
-                <textarea cols="10" rows="10" placeholder="Your Message" name="message" id="body"></textarea>
-
-                <div class="btn-contact">
-                    <button type="button" onclick="sendEmail()" value="Send An Email">Send Message</button>
-                    <!-- <button type="submit">Send Message</button>
-                    <span></span> -->
-                <!-- <h4 class="sent-notification"></h4>
-                </div>
-            </form>  -->
 
             </div>
         </div>
