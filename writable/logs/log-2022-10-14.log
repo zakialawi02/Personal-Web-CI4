@@ -1718,3 +1718,154 @@ in APPPATH\Views\notes\notes.php on line 45.
  8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 19:29:02 --> mysqli_sql_exception: Column 'nama_tamu' cannot be null in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rs...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rs...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rs...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rs...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(39): App\Models\RsvpModel->send_konfirmasi(Array)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->send_konfirmasi()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+CRITICAL - 2022-10-14 19:29:02 --> Column 'nama_tamu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rsvp` (`nama_tamu`, `jumlah_tamu`, `kehadiran`, `ket_tdkhadir`, `created_at`) VALUES (NULL, NULL, NULL, NULL, \'2022-10-14 19:29:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rsvp` (`nama_tamu`, `jumlah_tamu`, `kehadiran`, `ket_tdkhadir`, `created_at`) VALUES (NULL, NULL, NULL, NULL, \'2022-10-14 19:29:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rsvp` (`nama_tamu`, `jumlah_tamu`, `kehadiran`, `ket_tdkhadir`, `created_at`) VALUES (NULL, NULL, NULL, NULL, \'2022-10-14 19:29:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rsvp` (`nama_tamu`, `jumlah_tamu`, `kehadiran`, `ket_tdkhadir`, `created_at`) VALUES (:nama_tamu:, :jumlah_tamu:, :kehadiran:, :ket_tdkhadir:, :created_at:)', [...], false)
+ 5 APPPATH\Models\RsvpModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Rsvp.php(39): App\Models\RsvpModel->send_konfirmasi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->send_konfirmasi()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 20:24:42 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, id_tamu given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('id_tamu')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('id_tamu')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('id_tamu')
+ 4 APPPATH\Controllers\Rsvp.php(21): CodeIgniter\Database\BaseResult->getResult('id_tamu')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 21:57:37 --> Undefined variable $contact
+in APPPATH\Views\rsvp.php on line 125.
+ 1 APPPATH\Views\rsvp.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\rsvp.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rsvp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 5 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 21:57:37 --> Undefined variable $contact
+in APPPATH\Views\rsvp.php on line 125.
+ 1 APPPATH\Views\rsvp.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\rsvp.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rsvp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 5 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 22:02:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\rsvp.php on line 136.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 4 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 22:12:18 --> Cannot use object of type stdClass as array
+in APPPATH\Views\rsvp.php on line 127.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 4 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 22:12:29 --> Undefined property: stdClass::$id
+in APPPATH\Views\rsvp.php on line 127.
+ 1 APPPATH\Views\rsvp.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Views\\rsvp.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rsvp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 5 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 22:14:29 --> Cannot use object of type stdClass as array
+in APPPATH\Views\rsvp.php on line 125.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 4 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 22:14:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\rsvp.php on line 125.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('rsvp', [], true)
+ 4 APPPATH\Controllers\Rsvp.php(23): view('rsvp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 22:35:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '13 = :13:
+WHERE `id_tamu` = :id_tamu:' at line 1 in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rsvp` S...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rsvp` S...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rsvp` S...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `rsvp` S...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\RsvpModel.php(38): CodeIgniter\Database\BaseBuilder->update('13', Array)
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Rsvp.php(55): App\Models\RsvpModel->updateRsvp('13', Array)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Rsvp->update('13')
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+CRITICAL - 2022-10-14 22:35:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '13 = :13:
+WHERE `id_tamu` = :id_tamu:' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `rsvp` SET 13 = :13:
+WHERE `id_tamu` = :id_tamu:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rsvp` SET 13 = :13:
+WHERE `id_tamu` = :id_tamu:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rsvp` SET 13 = :13:
+WHERE `id_tamu` = :id_tamu:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `rsvp` SET 13 = :13:
+WHERE `id_tamu` = :id_tamu:', [...], false)
+ 5 APPPATH\Models\RsvpModel.php(38): CodeIgniter\Database\BaseBuilder->update('13', [...])
+ 6 APPPATH\Controllers\Rsvp.php(55): App\Models\RsvpModel->updateRsvp('13', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rsvp->update('13')
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rsvp))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

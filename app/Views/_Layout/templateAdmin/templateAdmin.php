@@ -56,22 +56,6 @@
         });
     </script>
 
-    <script>
-        $("#kehadiran").change(function() {
-            if ($(this).val() == "Tidak Hadir") {
-                $('#THadir').show();
-                $('#keterangan').attr('required', '');
-                $('#keterangan').attr('data-error', 'This field is required.');
-
-            } else {
-                $('#THadir').hide();
-                $('#keterangan').removeAttr('required');
-                $('#keterangan').removeAttr('data-error');
-
-            }
-        });
-        $("#kehadiran").trigger("change");
-    </script>
 
 </body>
 
