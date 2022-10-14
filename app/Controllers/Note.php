@@ -22,7 +22,20 @@ class Note extends BaseController
             'title1' => 'Notes',
             'callNote' => $note->callNote()->getResultArray(),
         ];
-        return view('Notes/notes', $data);
+        return view('notes/notes', $data);
+    }
+
+    // view detail data
+    public function detail($id_note)
+    {
+        $note = new NoteModel();
+        $data = [
+            'title' => 'Edit Notes',
+            'callNote' => $note->callNote($id_note),
+        ];
+        // dd($data);
+
+        return view('notes/detailNote', $data);
     }
 
     // insert data
@@ -32,7 +45,7 @@ class Note extends BaseController
             'title' => 'New Notes',
             'title1' => 'New Notes',
         ];
-        return view('Notes/createNote', $data);
+        return view('notes/createNote', $data);
     }
 
     // insert data
@@ -69,11 +82,11 @@ class Note extends BaseController
     public function update()
     {
         $note = new NoteModel();
-        $id = $this->request->getVar('idNote');
+        $id = $this->request->getPost('idNote');
         if ($this->request->getMethod() == 'post') {
             $data = [
-                'judul_note' => $this->request->getVar('judulNote'),
-                'isi_note'  => $this->request->getVar('isiNote'),
+                'judul_note' => $this->request->getPost('judulNote'),
+                'isi_note'  => $this->request->getPost('isiNote'),
                 'updated_at' => date('Y-m-d H:i:s')
             ];
         }
@@ -86,19 +99,14 @@ class Note extends BaseController
     public function delete($id_note = null)
     {
         $note = new NoteModel();
-        $data['callNote'] = $note->where('id_note', $id_note)->delete($id_note);
-        session()->setFlashdata('alert', 'Note Berhasil dihapus.');
-        return $this->response->redirect(site_url('/note'));
-    }
-
-    // view detail data
-    public function detail($id_note)
-    {
-        $note = new NoteModel();
-        $data = [
-            'title' => 'Edit Notes',
-            'callNote' => $note->callNote($id_note)->getResultArray(),
-        ];
-        return view('notes/viewNote', $data);
+        $callNote = $note->callNote($id_note)->getRow();
+        if (isset($callNote)) {
+            $note->delete(['id_note' => $id_note]);
+            session()->setFlashdata('alert', 'Note Berhasil dihapus.');
+            return $this->response->redirect(site_url('/note'));
+        } else {
+            session()->setFlashdata('alert', "Hapus Gagal !, ID '.$id_note.' Tidak ditemukan");
+            return redirect('notes/note');
+        }
     }
 }

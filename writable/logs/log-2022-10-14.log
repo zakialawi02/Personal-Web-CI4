@@ -1,0 +1,1330 @@
+ERROR - 2022-10-14 13:29:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'CI', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-10-14 13:29:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notes`', [], false)
+ 3 APPPATH\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 13:29:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'CI', 3306, '', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->index()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->index()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#10 {main}
+CRITICAL - 2022-10-14 13:29:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notes`', [], false)
+ 3 APPPATH\Models\NoteModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 15:57:47 --> Call to a member function callNote() on null
+in APPPATH\Controllers\Note.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:00:07 --> Call to a member function callNote() on null
+in APPPATH\Controllers\Note.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:00:37 --> Call to a member function callNote() on null
+in APPPATH\Controllers\Note.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:01:19 --> Call to a member function callNote() on null
+in APPPATH\Controllers\Note.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:02:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:02:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:02:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:57 --> Call to undefined method stdClass::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:58 --> Call to undefined method stdClass::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:03:59 --> Call to undefined method stdClass::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:04:15 --> Call to undefined method stdClass::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:04:20 --> Call to undefined method stdClass::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:07:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 16:07:28 --> mysqli_sql_exception: Unknown column 'notes' in 'where clause' in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(771): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Models\NoteModel.php(27): CodeIgniter\Model->__call('getWhere', Array)
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(98): App\Models\NoteModel->callNote('2')
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-14 16:07:28 --> Unknown column 'notes' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `notes`
+WHERE `notes` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `notes`
+WHERE `notes` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `notes`
+WHERE `notes` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notes`
+WHERE `notes` = :notes:', [...], false)
+ 5 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Models\NoteModel.php(27): CodeIgniter\Model->__call('getWhere', [...])
+ 7 APPPATH\Controllers\Note.php(98): App\Models\NoteModel->callNote('2')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:07:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:17:34 --> Call to undefined method App\Models\NoteModel::getNotes
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(93): CodeIgniter\Model->__call('getNotes', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->delete('90')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:20:13 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\NoteModel.php(25): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:20:15 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\NoteModel.php(25): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:20:15 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 223
+in SYSTEMPATH\Database\BaseResult.php on line 96.
+ 1 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\NoteModel.php(25): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Note.php(23): App\Models\NoteModel->callNote()
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:29:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:31:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:34:19 --> Undefined variable $callNote
+in APPPATH\Views\notes\detailNote.php on line 28.
+ 1 APPPATH\Views\notes\detailNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\detailNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\detailNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/detailNote', [], true)
+ 5 APPPATH\Controllers\Note.php(112): view('notes/detailNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:34:20 --> Undefined variable $callNote
+in APPPATH\Views\notes\detailNote.php on line 28.
+ 1 APPPATH\Views\notes\detailNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $callNote', 'APPPATH\\Views\\notes\\detailNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\detailNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/detailNote', [], true)
+ 5 APPPATH\Controllers\Note.php(112): view('notes/detailNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:34:48 --> Call to undefined method App\Models\NoteModel::getRfirsesultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(107): CodeIgniter\Model->__call('getRfirsesultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:35:12 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(107): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:35:13 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(107): CodeIgniter\Model->__call('getResultArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:35:35 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:16 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:17 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:17 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:19 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:20 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:20 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::callNote()
+in APPPATH\Controllers\Note.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:47 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:36:59 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(107): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:37:16 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get([...])
+ 2 APPPATH\Models\NoteModel.php(27): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Note.php(104): App\Models\NoteModel->callNote('2')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:37:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get([...])
+ 2 APPPATH\Models\NoteModel.php(27): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Note.php(104): App\Models\NoteModel->callNote('2')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:37:18 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get([...])
+ 2 APPPATH\Models\NoteModel.php(27): CodeIgniter\Model->__call('get', [...])
+ 3 APPPATH\Controllers\Note.php(104): App\Models\NoteModel->callNote('2')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:07 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(106): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:08 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(106): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:34 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '2')
+ 2 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:35 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '2')
+ 2 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:56 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '2')
+ 2 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:56 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '2')
+ 2 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:40:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '2')
+ 2 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:41:20 --> Call to undefined method App\Models\NoteModel::getRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(106): CodeIgniter\Model->__call('getRow', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:41:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:43:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:43:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:46:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:46:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:46:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:07 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(106): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:09 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(106): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:36 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:55 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:56 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:47:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:48:04 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:48:11 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(106): App\Models\NoteModel->callNote('id_note', '6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:50:23 --> Attempt to read property "judul_note" on null
+in APPPATH\Views\notes\detailNote.php on line 28.
+ 1 APPPATH\Views\notes\detailNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_note" on null', 'APPPATH\\Views\\notes\\detailNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\detailNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/detailNote', [], true)
+ 5 APPPATH\Controllers\Note.php(38): view('notes/detailNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:50:30 --> Attempt to read property "judul_note" on null
+in APPPATH\Views\notes\detailNote.php on line 28.
+ 1 APPPATH\Views\notes\detailNote.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul_note" on null', 'APPPATH\\Views\\notes\\detailNote.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\notes\\detailNote.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/detailNote', [], true)
+ 5 APPPATH\Controllers\Note.php(38): view('notes/detailNote', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:51:38 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:51:41 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:52:04 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:52:10 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:52:11 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:52:31 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:53:45 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '6')
+ 2 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:54:08 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '6')
+ 2 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:54:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '6')
+ 2 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:54:26 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 771
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->get('id_note', '6')
+ 2 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:54:59 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('getResultArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:55:17 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('getResultArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:55:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:55:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Note.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:59:07 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:59:44 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 16:59:45 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:00:17 --> Call to undefined method App\Models\NoteModel::getResultArray
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('getResultArray', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:00:23 --> Call to undefined method App\Models\NoteModel::getResult
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Note.php(34): CodeIgniter\Model->__call('getResult', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:00:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::find()
+in APPPATH\Controllers\Note.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:01:19 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:01:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:01:59 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:04:29 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 17:04:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:' at line 3 in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-14 17:04:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+AND `notes`.`id_note` = :notes.id_note:', [...], false)
+ 5 SYSTEMPATH\Model.php(181): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 7 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-14 17:04:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\app\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+#7 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+#8 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+#9 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Commands\Server\rewrite.php(43): require_once('F:\\WEB\\XAMPP\\ht...')
+#12 {main}
+CRITICAL - 2022-10-14 17:04:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `notes`
+WHERE 0 = :0:
+AND 1 = :1:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:06:27 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:06:35 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:07:01 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Note.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:07:11 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Note.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:07:12 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Note.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:07:13 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Note.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Note.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Note')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Note')
+ 4 SYSTEMPATH\CodeIgniter.php(854): class_exists('\\App\\Controllers\\Note', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:08:07 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:08:09 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:08:24 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:08:59 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:09:00 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:09:01 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:09:02 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:09:16 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:17:50 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:17:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:17:59 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:18:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 182
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(true, '6')
+ 3 APPPATH\Controllers\Note.php(34): CodeIgniter\BaseModel->find('6')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:18:31 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(34): App\Models\NoteModel->callNote('6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:18:51 --> Call to undefined method App\Models\NoteModel::getFirstRow
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Models\NoteModel.php(27): CodeIgniter\Model->__call('getFirstRow', [])
+ 2 APPPATH\Controllers\Note.php(34): App\Models\NoteModel->callNote('6')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:18:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(34): App\Models\NoteModel->callNote('6')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('6')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:21:02 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(34): App\Models\NoteModel->callNote('2')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:21:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in F:\WEB\XAMPP\htdocs\Personal-Web-CI4\system\Model.php on line 249
+in SYSTEMPATH\Database\BaseResult.php on line 375.
+ 1 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\NoteModel.php(27): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\Note.php(34): App\Models\NoteModel->callNote('2')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-14 17:22:29 --> Cannot use object of type stdClass as array
+in APPPATH\Views\notes\detailNote.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('notes/detailNote', [], true)
+ 4 APPPATH\Controllers\Note.php(38): view('notes/detailNote', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Note->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

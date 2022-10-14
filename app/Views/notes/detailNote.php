@@ -25,7 +25,12 @@
                 <!-- ISI CONTENT -->
 
                 <div class="judul">
-                    <h2><?= $callNote['judul_note']; ?></h2>
+                    <h2><?= $callNote->judul_note; ?></h2>
+                    <h6><?= $callNote->created_at; ?></h6>
+                    <br>
+                </div>
+                <div class="para">
+                    <p><?= $callNote->isi_note; ?></p>
                 </div>
 
 
