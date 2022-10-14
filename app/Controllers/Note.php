@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\NoteModel;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Note extends BaseController
 {
@@ -31,10 +32,13 @@ class Note extends BaseController
         $note = new NoteModel();
         $data = [
             'title' => 'Edit Notes',
-            'callNote' => $note->callNote($id_note),
+            'callNote' => $note->callNote($id_note)->getRow(),
         ];
-        // dd($data);
 
+        if (!$data['callNote']) {
+            throw PageNotFoundException::forPageNotFound();
+        }
+        // dd($data);
         return view('notes/detailNote', $data);
     }
 
@@ -96,17 +100,20 @@ class Note extends BaseController
     }
 
     // delete data
-    public function delete($id_note = null)
+    public function delete($id_note)
     {
         $note = new NoteModel();
-        $callNote = $note->callNote($id_note)->getRow();
-        if (isset($callNote)) {
-            $note->delete(['id_note' => $id_note]);
-            session()->setFlashdata('alert', 'Note Berhasil dihapus.');
-            return $this->response->redirect(site_url('/note'));
-        } else {
-            session()->setFlashdata('alert', "Hapus Gagal !, ID '.$id_note.' Tidak ditemukan");
-            return redirect('notes/note');
-        }
+        // if (isset($callNote)) {
+        //     $note->delete(['id_note' => $id_note]);
+        //     session()->setFlashdata('alert', 'Note Berhasil dihapus.');
+        //     return $this->response->redirect(site_url('/note'));
+        // } else {
+        //     session()->setFlashdata('alert', "Hapus Gagal !, ID '.$id_note.' Tidak ditemukan");
+        //     return redirect('/note');
+        // }
+
+        $note->delete(['id_note' => $id_note]);
+        session()->setFlashdata('alert', "Note Berhasil dihapus.");
+        return $this->response->redirect(site_url('/note'));
     }
 }

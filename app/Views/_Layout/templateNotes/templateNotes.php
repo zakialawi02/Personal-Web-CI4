@@ -69,6 +69,15 @@
     </script>
 
     <script>
+        $(document).ready(function() {
+            $(".alert");
+            setTimeout(function() {
+                $(".alert").fadeOut(800);
+            }, 3000);
+        });
+    </script>
+
+    <script>
         var toolbarOptions = [
             ['bold', 'italic', 'underline', 'strike'], // toggled buttons
             ['blockquote', 'code-block'],

@@ -42,7 +42,9 @@
                     <?php foreach ($callNote as $n) : ?>
                         <div class="card-blog">
                             <div class="card-span">
-                                <h3 style="font-size:18px"><?= $n['judul_note']; ?></h3>
+                                <a href="/note/<?= $n['id_note']; ?>" style="font-size:18px">
+                                    <h3><?= $n['judul_note']; ?></h3>
+                                </a>
                                 <div>
 
                                     <a href="#" class="card-link">Admin</a>

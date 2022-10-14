@@ -44,7 +44,7 @@ $routes->get('/a', 'Home::coba');
 $routes->delete('/message/hapus/(:num)', 'Message::hapus/$1');
 
 $routes->delete('/note/delete/(:num)', 'Note::delete/$1');
-$routes->get('/note/detail/(:num)', 'Note::detail/$1');
+$routes->get('/note/(:num)', 'Note::detail/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
