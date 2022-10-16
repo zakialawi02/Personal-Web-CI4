@@ -26,7 +26,7 @@
 
                 <div class="modal-body">
 
-                    <form action="/note/addNote" method="post" enctype="multipart/form-data">
+                    <form action="/note/addNote" method="post" enctype="multipart/form-data" id="formNote">
                         <?= csrf_field(); ?>
                         <div class="row mb-3">
                             <label for="colFormLabel" class=" col-form-label">Judul:</label>
@@ -40,7 +40,10 @@
                             <div class="col">
                                 <div>
                                     <!-- <div id="toolbar"></div>
-                                    <div id="editor"></div> -->
+                                    <div id="editor" name="isi_note"></div>
+                                    <input type="hidden" name="isi_note">
+                                    <textarea name="text" style="display:none" id="hiddenArea"></textarea> -->
+
                                     <textarea type="text" class="form-control" for="isiNote" id="isiNote" name="isiNote" cols="30" rows="10" required></textarea>
                                 </div>
                             </div>
@@ -49,7 +52,7 @@
 
                         <div class="modal-footer">
                             <a href="/note" class="btn btn-secondary " tabindex="-1" role="button" aria-disabled="true">Back</a>
-                            <button type="submit" class="btn btn-primary">Snap</button>
+                            <button type="submit" class="btn btn-primary" value="save">Snap</button>
                         </div>
                     </form>
                 </div>

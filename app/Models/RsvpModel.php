@@ -21,7 +21,7 @@ class RsvpModel extends Model
     function tampilRsvp($id_tamu = false)
     {
         if ($id_tamu === false) {
-            return $this->db->table('rsvp')->get();   //mengambil data objek type
+            return $this->db->table('rsvp')->orderBy('id_tamu', 'DESC')->get();   //mengambil data objek type
         } else {
             return $this->Where(['id_tamu' => $id_tamu])->get();
         }
