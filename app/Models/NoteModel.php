@@ -24,7 +24,7 @@ class NoteModel extends Model
         if ($id_note === false) {
             return $this->db->table('notes')->get();
         } else {
-            return $this->db->table('notes')->getWhere(['id_note' => $id_note]);
+            return $this->Where(['id_note' => $id_note])->get();
         }
     }
 

@@ -1,4 +1,4 @@
-<?= $this->extend('_Layout/templateAdmin/templateAdmin'); ?>
+<?= $this->extend('_Layout/templateNotes/templateNotes'); ?>
 
 
 <?= $this->section('content'); ?>
@@ -6,6 +6,7 @@
     <div class="page-title">
         <div class="row">
             <div class="col-12 col-md-6 order-md-1 order-last" style="margin-bottom: 1rem;">
+
                 <!-- <p class="text-subtitle text-muted">The default layout </p> -->
             </div>
             <div class="col-12 col-md-6 order-md-2 order-first">
@@ -20,18 +21,17 @@
     </div>
     <section class="section">
         <div class="card">
-            <!-- <div class="card-header">
-            </div> -->
             <div class="card-body">
                 <!-- ISI CONTENT -->
 
-
-
-                <a href="/message" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">MESSAGE</a>
-                <a href="/gis" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">WEB GIS</a>
-                <a href="/rsvp" class="btn btn-primary " tabindex="-1" role="button" aria-disabled="true">RSVP</a>
-                <a href="/note" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Notes</a>
-                <a href="#" class="btn btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">SOON..</a>
+                <div class="judul">
+                    <h2><?= $callNote->judul_note; ?></h2>
+                    <h6><?= $callNote->created_at; ?></h6>
+                    <br>
+                </div>
+                <div class="para">
+                    <p><?= $callNote->isi_note; ?></p>
+                </div>
 
 
 

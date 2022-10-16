@@ -43,7 +43,7 @@
                                 <div>
                                     <!-- <div id="toolbar"></div>
                                     <div id="editor"></div> -->
-                                    <textarea class="form-control" for="isiNote" id="isiNote" name="isiNote" required><?= $updateNote->isi_note; ?></textarea>
+                                    <textarea class="form-control" for="isiNote" id="isiNote" name="isiNote" cols="10" rows="10"><?= $updateNote->isi_note; ?></textarea>
                                 </div>
                             </div>
                         </div>

@@ -55,6 +55,18 @@
             $('#table_id').DataTable();
         });
     </script>
+    <script>
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".alert");
+            setTimeout(function() {
+                $(".alert").fadeOut(800);
+            }, 3000);
+        });
+    </script>
 
     <script>
         $("#kehadiran").change(function() {
@@ -72,7 +84,6 @@
         });
         $("#kehadiran").trigger("change");
     </script>
-
     <script>
         function bersihkan() {
             $('#nama_tamu').val('');
@@ -80,7 +91,7 @@
             $('#jumlah_tamu').val('1');
             $('#keterangan').val('');
         }
-        $('.tombol-tutup').on('click', function() {
+        $('#tombolTutup').on('click', function() {
             // if ($('.sukses').is(":visible")) {
             //     window.location.href = "<?php echo current_url() . "?" . $_SERVER['QUERY_STRING'] ?>";
             // }
