@@ -49,4 +49,13 @@ class Home extends BaseController
 
         return view('coba', $data);
     }
+
+    public function SUS()
+    {
+        $data = [
+            'title' => 'Zaki Personal Website'
+        ];
+
+        return view('SUS', $data);
+    }
 }

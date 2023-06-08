@@ -1,0 +1,400 @@
+ERROR - 2023-06-08 15:46:02 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:46:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:47:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:47:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:47:49 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:47:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:47:50 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:47:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:51:01 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:51:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:52:43 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:52:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:53:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:53:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:53:04 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:53:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:53:04 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:53:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2023-06-08 15:53:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#8 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/zaki/Documents/Personal-Web-CI4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/zaki/Documents/Personal-Web-CI4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/zaki/Documents/Personal-Web-CI4/app/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/zaki/Documents/Personal-Web-CI4/app/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+#5 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(904): App\Controllers\Home->index()
+#6 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/zaki/Documents/Personal-Web-CI4/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/zaki/Documents/Personal-Web-CI4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/zaki/Documents/Personal-Web-CI4/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2023-06-08 15:53:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/PesanModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Home.php(19): App\Models\PesanModel->tampilData()
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
