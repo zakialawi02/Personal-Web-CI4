@@ -53,7 +53,7 @@
             </div>
 
             <nav class="navbar">
-                <a class="active" href="#home">home</a>
+                <a class="active" href="/#home">home</a>
                 <a href="/" target="_blank">About</a>
                 <a href="https://github.com/zakialawi02"><i class="fa-brands fa-github"></i></a>
                 <!-- <a href="#contact">Contact</a>
