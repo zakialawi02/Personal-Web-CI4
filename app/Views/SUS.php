@@ -8,7 +8,7 @@
     <meta name="keywords" content="resume, personal, portfolio, cv, ahmad zaki alawi" />
 
 
-    <title>SUS Questionnaire</title>
+    <title><?= $title; ?></title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href=" <?= base_url(); ?>/img/favicon.png" type="image/x-icon" />
@@ -55,8 +55,8 @@
             <nav class="navbar">
                 <a class="active" href="#home">home</a>
                 <a href="/" target="_blank">About</a>
-                <!-- <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <a href="https://github.com/zakialawi02" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <!-- <a href="#contact">Contact</a>
                 <a class="btn-Gal" href="https://gallery.zakialawi.my.id/" target="_blank">Gallery</a> -->
 
 
@@ -171,14 +171,14 @@
                 <hr>
                 <div class="pt-5 pb-4 p-2">
                     <h4>Jika menemukan error/keanehan dan mau berpartisipasi dalam memperbaiki dapat kirimkan status/tampilan error dibawah ini!!</h4>
-                    <form class="p-1" action="" method="post" enctype="multipart/form-data">
+                    <form class="p-1" action="/home/addReport" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <p>Deskripsi</p>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Jelaskan Permasalahannya dengan detail"></textarea>
+                            <textarea class="form-control" id="keterangan" name="keterangan" rows="3" placeholder="Jelaskan Permasalahannya dengan detail"></textarea>
                         </div>
                         <p>Gambar/Foto (optional)</p>
                         <div class="input-group mb-3">
-                            <input type="file" name="foto[]" class="form-control" id="foto" accept="image/*" multiple>
+                            <input class="form-control" type="file" name="fotos[]" id="fotos" accept="image/*" multiple>
                         </div>
                         <div id="FileHelp" class="h5 pb-2">.jpg/.png</div>
                         <div id="imgPreview"></div>
@@ -236,7 +236,8 @@
                     <h2>Message me</h2>
 
                     <!-- versi 2 -->
-                    <form action="mail.php" method="POST" autocomplete="off" class="form" id="myForm" name="myform">
+                    <div autocomplete="off" class="form" id="myForm" name="myform">
+                        <?= csrf_field(); ?>
                         <div>
                             <input type="text" placeholder="Your Name" name="name" id="name" required />
                             <input type="email" placeholder="Your Email" name="email" id="email" required />
@@ -244,14 +245,9 @@
                         <input type="text" placeholder="Subject" name="judul" id="judul" required />
                         <textarea cols="10" rows="10" placeholder="Your Message" name="message" id="message" required></textarea>
 
-                        <?php if (!empty($terkirim)) : ?>
-                            <div class="terkirim">
-                                <strong><?= $terkirim; ?></strong>
-                            </div>
-                        <?php endif ?>
-                        <input class="btn-contact" type="submit" value="Submit" name="sendMail">
-
-                    </form>
+                        <div id="terkirim"></div>
+                        <input class="btn-contact" type="submit" onclick="sendMai()" role="button" value="Submit" name="sendMail">
+                    </div>
 
                 </div>
             </div>
@@ -293,6 +289,47 @@
     <script src="<?= base_url(); ?>/js/sus.js"></script>
     <script src="https://kit.fontawesome.com/68577d40c9.js" crossorigin="anonymous"></script>
 
+    <!-- mailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("AP-Zbwta6_TwadTCB");
+        })();
+    </script>
+    <script>
+        function sendMai() {
+            var templateParams = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                judul: document.getElementById("judul").value,
+                message: document.getElementById("message").value,
+            };
+            console.log(templateParams);
+            emailjs.send('service_7xgeic2', 'template_20331zc', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById("terkirim").innerHTML = "Berhasil dikirim!";
+                    document.getElementById("terkirim").style.display = "block";
+                    setTimeout(function() {
+                        document.getElementById("terkirim").style.display = "none";
+                    }, 5000);
+                    document.getElementById("name").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("judul").value = "";
+                    document.getElementById("message").value = "";
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    document.getElementById("terkirim").innerHTML = "Gagal dikirim!";
+                    document.getElementById("terkirim").style.display = "block";
+                    setTimeout(function() {
+                        document.getElementById("terkirim").style.display = "none";
+                    }, 5000);
+                });
+        }
+    </script>
+
+
     <script>
         function copyText1() {
             var copyText = document.getElementById("coptek1");
@@ -331,7 +368,7 @@
                 }
             }
         }
-        $("#foto").change(function() {
+        $("#fotos").change(function() {
             readURL(this);
         });
     </script>

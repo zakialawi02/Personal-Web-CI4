@@ -1360,7 +1360,6 @@ h1.heading-title {
 .form textarea {
     width: 100%;
     resize: vertical;
-    margin-bottom: 3rem;
 }
 
 /* form .btn-contact button {
@@ -1405,15 +1404,11 @@ form input.btn-contact:hover {
     color: var(--textLinght);
 }
 
-.terkirim {
-    font-size: 1.4rem;
-    background-color: #0bc611;
-    padding: 5px 10px;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 3px;
-    font-synthesis: 14px;
-    margin-bottom: 10px;
+#terkirim {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: #38a838;
 }
 
 

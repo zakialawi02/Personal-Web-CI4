@@ -3,14 +3,18 @@
 namespace App\Controllers;
 
 use App\Models\PesanModel;
+use App\Models\SusModel;
 
 class Home extends BaseController
 {
     protected $PesanModel;
+    protected $SusModel;
     public function __construct()
     {
         $this->pesan = new PesanModel();
+        $this->sus = new SusModel();
     }
+
     public function index()
     {
         $pesan = new PesanModel();
@@ -53,9 +57,49 @@ class Home extends BaseController
     public function SUS()
     {
         $data = [
-            'title' => 'Zaki Personal Website'
+            'title' => 'SUS Questionnaire'
         ];
 
         return view('SUS', $data);
+    }
+
+    public function addReport()
+    {
+        // Mengambil data yang diinput dari form
+        $keterangan = $this->request->getPost('keterangan');
+        $fotoFiles = $this->request->getFiles('foto');
+
+        $gambar = [];
+
+        if ($fotoFiles) {
+            foreach ($fotoFiles as $foto) {
+                foreach ($foto as $file) {
+                    if ($file->isValid()) {
+                        $newName = $file->getRandomName();
+                        $file->move('img/sus/', $newName);
+                        $gambar[] = $newName;
+                    }
+                }
+            }
+        }
+
+        $data = [
+            'keterangan' => $keterangan,
+            'gambar' => implode(', ', $gambar), // Menggabungkan array gambar menjadi string dipisahkan dengan koma
+        ];
+
+        $this->sus->addReport($data);
+
+        return redirect()->to('/SUS-Questionnaire');
+    }
+
+    public function getsus()
+    {
+        $data = [
+            'title' => 'Data SUS Questionnaire',
+            'kuisioner' => $this->sus->getSus()->getResult(),
+        ];
+
+        return view('dataSus', $data);
     }
 }
