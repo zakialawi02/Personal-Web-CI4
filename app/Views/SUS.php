@@ -92,10 +92,10 @@
             <div style="display: block;">
                 <h2>System Usability Scale (SUS) Questionnaire</h2>
                 <p>System Usability Scale (SUS) adalah salah satu metode uji pengguna yang menyediakan alat ukur yang “quick and dirty” dan dapat diandalkan. Diaplikasikan dengan menggunakan 10 pernyataan berbentuk kuisoner yang diikuti dengan 5 opsi jawaban untuk setiap pernyataan, mulai dari Sangat Setuju hingga Sangat Tidak Setuju. Metode uji pengguna ini diperkenalkan oleh John Brooke di tahun 1986 yang dapat digunakan untuk mengevaluasi berbagai jenis produk maupun servis, termasuk di dalamnya hardware, software, perangakat mobile, website dan aplikasi.</p>
-                <p>Dalam pengujian ini anda diminta untuk menggunakan dan menjalankan situs WebGIS dan diminta untuk mengikuti task yang telah diberikan. Untuk penjelasan lebih detail baca point dibawah berikut</p>
+                <p>Dalam pengujian ini anda diminta untuk menggunakan dan menjalankan situs WebGIS dan diminta untuk mengikuti task yang telah diberikan. Untuk penjelasan lebih detail baca point dibawah berikut.</p>
 
                 <ol>
-                    <li>Anda dapat mengakses dengan perangkat apapun, bisa menggunakan laptop/PC/tablet/ipad/smatrphone</li>
+                    <li>Anda dapat mengakses dengan perangkat apapun, bisa menggunakan laptop/PC/tablet/ipad/smatrphone. Gunakan laptop/PC untuk experience lebih baik.</li>
                     <li>Lakukan tugas berikut</li>
                     <div class="table-responsive">
                         <table class="table table-primary">
@@ -157,9 +157,7 @@
                         </div>
                     </li>
 
-                    <li>Jika anda telah mencoba menggunakan dan melakukan beberapa task mohon ketersediaannya untuk mengisi form kuisoner dibawah ini 👇👇👇
-                    </li>
-                    <li>Tidak nyaman dengan tampilan form dibawah?! <a href="https://forms.gle/EpQKzeYW5YUGEvAZA" class="btn" target="_blank" data-aos="fade-down" delay="0.8">Buka terpisah <span class="fas fa-external-link-alt"></span>
+                    <li>Jika anda telah mencoba menggunakan dan melakukan beberapa task mohon ketersediaannya untuk mengisi form kuisoner dibawah ini 👇👇👇 atau buka kuisioner terpisah <a href="https://forms.gle/EpQKzeYW5YUGEvAZA" class="btn" target="_blank" data-aos="fade-down" delay="0.8"> disini <span class="fas fa-external-link-alt"></span>
                         </a>
                     </li>
                 </ol>
@@ -168,13 +166,17 @@
                 <div class="p-3"></div>
                 <iframe src="https://forms.gle/EpQKzeYW5YUGEvAZA" frameborder="0" style="width: 100%; height: 95vh;"></iframe>
 
+
+                <hr>
+                <hr>
                 <div class="pt-5 pb-4 p-2">
                     <h4>Jika menemukan error/keanehan dan mau berpartisipasi dalam memperbaiki dapat kirimkan status/tampilan error dibawah ini!!</h4>
                     <form class="p-1" action="" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <p>Deskripsi</p>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Jelaskan Permasalahannya dengan detail"></textarea>
                         </div>
+                        <p>Gambar/Foto (optional)</p>
                         <div class="input-group mb-3">
                             <input type="file" name="foto[]" class="form-control" id="foto" accept="image/*" multiple>
                         </div>
