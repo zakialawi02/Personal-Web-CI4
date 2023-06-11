@@ -66,6 +66,7 @@ class Home extends BaseController
     public function addReport()
     {
         // Mengambil data yang diinput dari form
+        $email = $this->request->getPost('email');
         $keterangan = $this->request->getPost('keterangan');
         $fotoFiles = $this->request->getFiles('foto');
 
@@ -84,6 +85,7 @@ class Home extends BaseController
         }
 
         $data = [
+            'email' => $email,
             'keterangan' => $keterangan,
             'gambar' => implode(', ', $gambar), // Menggabungkan array gambar menjadi string dipisahkan dengan koma
         ];

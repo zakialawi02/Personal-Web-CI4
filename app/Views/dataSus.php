@@ -85,6 +85,7 @@
                     <thead>
                         <tr>
                             <th scope="col" style="width: 8rem;">no.</th>
+                            <th scope="col">Email</th>
                             <th scope="col">Deskripsi</th>
                             <th scope="col">Foto</th>
                         </tr>
@@ -94,6 +95,7 @@
                         <?php foreach ($kuisioner as $K) : ?>
                             <tr class="">
                                 <td scope="row"><?= $i++; ?></td>
+                                <td><?= $K->email; ?></td>
                                 <td><?= $K->keterangan; ?></td>
                                 <td><?php if (empty($K->gambar)) : ?>
                                         -

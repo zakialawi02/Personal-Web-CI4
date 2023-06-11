@@ -21,6 +21,12 @@
     <!-- <link rel="stylesheet" href="<?= base_url(); ?>/css/style.css"> -->
     <link rel="stylesheet" href="<?= base_url(); ?>/css/sus.css">
 
+    <style>
+        .pp {
+            font-size: 1.5rem;
+        }
+    </style>
+
 </head>
 
 
@@ -125,43 +131,71 @@
                             </tbody>
                         </table>
                     </div>
-                    <li>Silakan akses situs WebGIS berikut dan jelajahi sesuai taks yang telah diberikan terlebih dahulu. Selebihnya dibebaskan <a href="/a" class="btn" target="_blank" data-aos="fade-down" delay="0.8">click here <span class="fas fa-external-link-alt"></span>
+                    <li>Silakan akses situs WebGIS berikut dan jelajahi sesuai taks yang telah diberikan terlebih dahulu. Selebihnya dibebaskan <a href="/a" class="btn" target="_blank">click here <span class="fas fa-external-link-alt"></span>
                         </a></li>
-                    <li> Data Sampel jika perlu*
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="coptek1" value="Contoh Teks" disabled>
-                            <button type="button" class="btn" onclick="copyText1()">Salin <span class="fa-solid fa-copy"></span></button>
-                        </div>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="coptek2" value="Contoh Teks ini dapat disalin" disabled>
-                            <button type="button" class="btn" onclick="copyText2()">Salin <span class="fa-solid fa-copy"></span></button>
-                        </div>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="coptek3" value="Contoh Teks ini dapat disalin" disabled>
-                            <button type="button" class="btn" onclick="copyText3()">Salin <span class="fa-solid fa-copy"></span></button>
-                        </div>
-                        <div class="row gx-2">
-                            <div class="col col-md-3 m-3">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
-                                    <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
-                                </div>
-                            </div>
-                            <div class="col col-md-3 m-3">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
-                                    <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </li>
-
-                    <li>Jika anda telah mencoba menggunakan dan melakukan beberapa task mohon ketersediaannya untuk mengisi form kuisoner dibawah ini 👇👇👇 atau buka kuisioner terpisah <a href="https://forms.gle/EpQKzeYW5YUGEvAZA" class="btn" target="_blank" data-aos="fade-down" delay="0.8"> disini <span class="fas fa-external-link-alt"></span>
+                    <li>Jika anda telah mencoba menggunakan dan melakukan beberapa task mohon ketersediaannya untuk mengisi form kuisoner <a href="#Kuisioner">dibawah</a> atau buka kuisioner terpisah <a href=" https://forms.gle/EpQKzeYW5YUGEvAZA" class="btn" target="_blank"> disini <span class="fas fa-external-link-alt"></span>
                         </a>
                     </li>
+
                 </ol>
 
+                <p>Data Sampel jika perlu*</p>
+                <label class="form-label pp">Nama Kafe : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="coptek1" value="Contoh Teks" disabled>
+                    <button type="button" class="btn" onclick="copyText1()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+                <label class="form-label pp">Alamat Kafe : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="coptek2" value="Contoh Teks ini dapat disalin" disabled>
+                    <button type="button" class="btn" onclick="copyText2()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+                <label class="form-label pp">Longitude : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="coptek3" value="Contoh Teks ini dapat disalin2" disabled>
+                    <button type="button" class="btn" onclick="copyText3()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+                <label class="form-label pp">Latitude : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="coptek4" value="Contoh Teks ini dapat disalin3" disabled>
+                    <button type="button" class="btn" onclick="copyText4()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+                <label class="form-label pp">Gambar (bebas) : </label>
+                <div class="row gx-2">
+                    <div class="col col-md-3 m-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
+                            <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 m-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
+                            <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p>Data Akun jika perlu*</p>
+                <label class="form-label pp">Email : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="emaila" value="5009139195@student.csn.edu" disabled>
+                    <button type="button" class="btn" onclick="copyemaila()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+                <label class="form-label pp">Password : </label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="passwa" value="123ewqasdxz" disabled>
+                    <button type="button" class="btn" onclick="copypasswa()">Salin <span class="fa-solid fa-copy"></span></button>
+                </div>
+
+
+                <hr>
+                <hr>
+
+                <div class="mt-5"></div>
+                <h2 class="mt-3 pt-3" id="Kuisioner">Kuisioner</h2>
                 <div class="pt-4"></div>
                 <div class="p-3"></div>
                 <iframe src="https://forms.gle/EpQKzeYW5YUGEvAZA" frameborder="0" style="width: 100%; height: 95vh;"></iframe>
@@ -172,6 +206,10 @@
                 <div class="pt-5 pb-4 p-2">
                     <h4>Jika menemukan error/keanehan dan mau berpartisipasi dalam memperbaiki dapat kirimkan status/tampilan error dibawah ini!!</h4>
                     <form class="p-1" action="/home/addReport" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <p>Email*</p>
+                            <input type="email" class="form-control" name="email" placeholder="yourmail@mail.com" required>
+                        </div>
                         <div class="mb-3">
                             <p>Deskripsi</p>
                             <textarea class="form-control" id="keterangan" name="keterangan" rows="3" placeholder="Jelaskan Permasalahannya dengan detail"></textarea>
@@ -349,6 +387,30 @@
 
         function copyText3() {
             var copyText = document.getElementById("coptek3");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copyText4() {
+            var copyText = document.getElementById("coptek4");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copyemaila() {
+            var copyText = document.getElementById("emaila");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copypasswa() {
+            var copyText = document.getElementById("passwa");
             copyText.select();
             copyText.setSelectionRange(0, 99999);
             document.execCommand("copy");
