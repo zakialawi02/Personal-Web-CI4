@@ -41,6 +41,7 @@ $routes->get('/z', 'Home::coba');
 $routes->get('/a', 'Home::coba');
 
 $routes->get('/SUS-Questionnaire', 'Home::SUS');
+$routes->get('/getsus', 'Home::getsus');
 
 $routes->delete('/message/hapus/(:num)', 'Message::hapus/$1');
 

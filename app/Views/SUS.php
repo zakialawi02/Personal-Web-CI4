@@ -25,6 +25,10 @@
         .pp {
             font-size: 1.5rem;
         }
+
+        .admin b {
+            font-weight: 700;
+        }
     </style>
 
 </head>
@@ -60,7 +64,7 @@
 
             <nav class="navbar">
                 <a class="active" href="/#home">home</a>
-                <a href="/" target="_blank">About</a>
+                <!-- <a href="/" target="_blank">About</a> -->
                 <a href="https://github.com/zakialawi02" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <!-- <a href="#contact">Contact</a>
                 <a class="btn-Gal" href="https://gallery.zakialawi.my.id/" target="_blank">Gallery</a> -->
@@ -101,7 +105,7 @@
                 <p>Dalam pengujian ini anda diminta untuk menggunakan dan menjalankan situs WebGIS dan diminta untuk mengikuti task yang telah diberikan. Untuk penjelasan lebih detail baca point dibawah berikut.</p>
 
                 <ol>
-                    <li>Anda dapat mengakses dengan perangkat apapun, bisa menggunakan laptop/PC/tablet/ipad/smatrphone. Gunakan laptop/PC untuk experience lebih baik.</li>
+                    <li>Anda dapat mengakses dengan perangkat apapun, bisa menggunakan laptop*/PC*/tablet/ipad/smatrphone. *experience lebih baik.</li>
                     <li>Lakukan tugas berikut</li>
                     <div class="table-responsive">
                         <table class="table table-primary">
@@ -114,19 +118,31 @@
                             <tbody>
                                 <tr class="">
                                     <td scope="row">1</td>
-                                    <td>R1C2</td>
+                                    <td>Eksplorasi apa saja yang dimuat dalam webgis</td>
                                 </tr>
                                 <tr class="">
                                     <td scope="row">2</td>
-                                    <td>Item</td>
+                                    <td>Coba untuk melakukan input data kafe. Silakan membuat akun jika belum punya atau menggunakan akun yang telah disediakan dibawah</td>
                                 </tr>
                                 <tr class="">
                                     <td scope="row">3</td>
-                                    <td>Item*</td>
+                                    <td>Masukkan data kafe yang berlokasi di surabaya. Bisa menggunkan data asli maupun dummy, atau bisa menggunakan data yang telah disediakan dibawah</td>
                                 </tr>
                                 <tr class="">
-                                    <td scope="row">4</td>
-                                    <td>Item</td>
+                                    <td scope="row">5</td>
+                                    <td>Coba masuk ke dashboard untuk melihat status data yang telah diinputkan</td>
+                                </tr>
+                                <tr class="">
+                                    <td scope="row">6</td>
+                                    <td>Selesai!</td>
+                                </tr>
+                                <tr class="admin">
+                                    <td scope="row">7</td>
+                                    <td>[opsional] Coba masuk ke dashboard admin untuk melihat apa saja yang ada dan status semua data yang ada, anda dapat melakukan aprovment terhadap data yang barusan anda inputtkan. <b>Jangan Merubah data selain itu.</b></td>
+                                </tr>
+                                <tr class="">
+                                    <td scope="row">8</td>
+                                    <td>Selesai!!. silakan mengisi form kuisioner dibawah!!</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -142,35 +158,41 @@
                 <p>Data Sampel jika perlu*</p>
                 <label class="form-label pp">Nama Kafe : </label>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="coptek1" value="Contoh Teks" disabled>
+                    <input type="text" class="form-control" id="coptek1" value="Acorn Cafe" disabled>
                     <button type="button" class="btn" onclick="copyText1()">Salin <span class="fa-solid fa-copy"></span></button>
                 </div>
                 <label class="form-label pp">Alamat Kafe : </label>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="coptek2" value="Contoh Teks ini dapat disalin" disabled>
+                    <input type="text" class="form-control" id="coptek2" value="Jl. Babatan Pantai UT II No.18, Dukuh Sutorejo, Kec. Mulyorejo" disabled>
                     <button type="button" class="btn" onclick="copyText2()">Salin <span class="fa-solid fa-copy"></span></button>
                 </div>
-                <label class="form-label pp">Longitude : </label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="coptek3" value="Contoh Teks ini dapat disalin2" disabled>
-                    <button type="button" class="btn" onclick="copyText3()">Salin <span class="fa-solid fa-copy"></span></button>
-                </div>
-                <label class="form-label pp">Latitude : </label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="coptek4" value="Contoh Teks ini dapat disalin3" disabled>
-                    <button type="button" class="btn" onclick="copyText4()">Salin <span class="fa-solid fa-copy"></span></button>
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <label class="form-label pp">Longitude : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="coptek3" value="-7.2532915934025795" disabled>
+                            <button type="button" class="btn" onclick="copyText3()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label pp">Latitude : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="coptek4" value="112.7903269589938" disabled>
+                            <button type="button" class="btn" onclick="copyText4()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
                 </div>
                 <label class="form-label pp">Gambar (bebas) : </label>
                 <div class="row gx-2">
                     <div class="col col-md-3 m-3">
                         <div class="card" style="width: 18rem;">
-                            <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
+                            <img src="/img/sus/foto1.jpg" class="card-img-top" alt="...">
                             <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
                         </div>
                     </div>
                     <div class="col col-md-3 m-3">
                         <div class="card" style="width: 18rem;">
-                            <img src="/img/Portfolio/20190803_054047-scaled.jpg" class="card-img-top" alt="...">
+                            <img src="/img/sus/foto2.jpg" class="card-img-top" alt="...">
                             <a href="#" class="btn m-1">Download <span class="fa-solid fa-download"></span></a>
                         </div>
                     </div>
@@ -179,17 +201,40 @@
                 <hr>
 
                 <p>Data Akun jika perlu*</p>
-                <label class="form-label pp">Email : </label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="emaila" value="5009139195@student.csn.edu" disabled>
-                    <button type="button" class="btn" onclick="copyemaila()">Salin <span class="fa-solid fa-copy"></span></button>
+                <p>akun user</p>
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <label class="form-label pp">Username : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="emaila" value="usertes" disabled>
+                            <button type="button" class="btn" onclick="copyemaila()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label pp">Password : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="passwa" value="usertes" disabled>
+                            <button type="button" class="btn" onclick="copypasswa()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
                 </div>
-                <label class="form-label pp">Password : </label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="passwa" value="123ewqasdxz" disabled>
-                    <button type="button" class="btn" onclick="copypasswa()">Salin <span class="fa-solid fa-copy"></span></button>
+                <p>akun admin</p>
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <label class="form-label pp">Username : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="emaila" value="usertes1" disabled>
+                            <button type="button" class="btn" onclick="copyemaila2()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label pp">Password : </label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="passwa" value="usertes" disabled>
+                            <button type="button" class="btn" onclick="copypasswa2()">Salin <span class="fa-solid fa-copy"></span></button>
+                        </div>
+                    </div>
                 </div>
-
 
                 <hr>
                 <hr>
@@ -198,7 +243,7 @@
                 <h2 class="mt-3 pt-3" id="Kuisioner">Kuisioner</h2>
                 <div class="pt-4"></div>
                 <div class="p-3"></div>
-                <iframe src="https://forms.gle/EpQKzeYW5YUGEvAZA" frameborder="0" style="width: 100%; height: 95vh;"></iframe>
+                <iframe src="https://forms.gle/XsGpjaB5e4qZeZZ97" frameborder="0" style="width: 100%; height: 95vh;"></iframe>
 
 
                 <hr>
@@ -410,6 +455,22 @@
         }
 
         function copypasswa() {
+            var copyText = document.getElementById("passwa");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copyemaila2() {
+            var copyText = document.getElementById("emaila");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            navigator.clipboard.writeText(copyText.value);
+        }
+
+        function copypasswa2() {
             var copyText = document.getElementById("passwa");
             copyText.select();
             copyText.setSelectionRange(0, 99999);
