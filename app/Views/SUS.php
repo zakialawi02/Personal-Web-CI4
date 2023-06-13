@@ -29,6 +29,11 @@
         .admin b {
             font-weight: 700;
         }
+
+        .quiserror {
+            width: 80%;
+            display: block;
+        }
     </style>
 
 </head>
@@ -241,8 +246,11 @@
 
                 <div class="mt-5"></div>
                 <h2 class="mt-3 pt-3" id="Kuisioner">Kuisioner</h2>
+                <center class="p-2 pt-3">
+                    <a type="button" class="quiserror btn btn-primary pt-2" href="https://forms.gle/XsGpjaB5e4qZeZZ97">Jika kuisioner dibawah tidak muncul klik disini</a>
+                </center>
                 <div class="pt-4"></div>
-                <div class="p-3"></div>
+                <div class="p-1"></div>
                 <iframe src="https://forms.gle/XsGpjaB5e4qZeZZ97" frameborder="0" style="width: 100%; height: 95vh;"></iframe>
 
 
